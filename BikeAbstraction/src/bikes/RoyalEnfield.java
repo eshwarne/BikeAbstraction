@@ -5,6 +5,6 @@ public class RoyalEnfield extends Skeleton {
 		super(vm, vo, vt);
 	}
 	public void silencerSound() {
-		System.out.println("Doof.. Doof.. Doof")''
+		System.out.println("Doof.. Doof.. Doof");
 	}
 }
