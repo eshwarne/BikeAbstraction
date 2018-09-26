@@ -12,8 +12,10 @@ abstract class Skeleton {
 	abstract void silencerSound();
 	protected void changeVehicleOwner(String a) {
 		this.vehicleOwner=a;
-	public void getDetails() {
 		
 	}
-}
+	public String[] getDetails() {
+		String[] details= {this.vehicleNumber,this.vehicleOwner,this.vehicleType};
+		return details;
+	}
 }
